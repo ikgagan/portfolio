@@ -1,5 +1,5 @@
 import React from 'react';
-// import gaganResume from '../../resume.pdf'
+import gaganResume from './resume.pdf'
 import gaganPhoto from './gaganPhoto1.jpg'
 import './home.css'
 
@@ -23,7 +23,7 @@ const Home = (props) => {
         </p>
         <div>
             <a
-              // href={gaganResume}
+              href={gaganResume}
               download="Gagan's Resume"
               target="_blank"
               rel="noopener noreferrer"
