@@ -10,13 +10,45 @@ const Experience = () => {
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-      <div data-aos="fade-up" className="left flex-1 w-full">
-        <p className=" text-gray-700 font-medium w-[100%]">
-          Here are my experiences.
-        </p>
-        
-      </div>
       <div className="card-wrapper w-[120%] sm:w-full mt-5 md:flex-col sm:gap-5 mx-auto ">
+      <div className="right flex-1 flex items-center">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-cyan-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-cyan-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 border-2 border-cyan-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                Web Application Developer (FullStack Developer)
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                 <a href="https://www.njit.edu/" target="_blank">New Jersey Institute of Technology</a> 
+                </span>
+                <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
+                  October 2023 - Present
+                </span>
+                <p className=" text-[.9rem] text-justify text-gray-500">
+                -> Successfully evolved a software into a stable version with robust drag-and-drop capabilities and step-wise execution, ensuring 
+                reliable function selection and execution of data transformation functions. <br/>
+                -> Implemented breakpoints for efficient program debugging.<br/>
+                -> Successfully integrated and prepared data sets relevant to New Jersey, such as local political campaign contributions, township budgets, 
+                property taxes, U.S.Census, Covid-19 data, and climate data for analysis, ensuring data quality. <br/>
+                -> Developed custom functions for data reconciliation, including case conversion, field separation, and value transformations. <br/>
+                -> Designed a user-friendly interface for querying and implemented machine learning for data analysis. <br/>
+                -> Demonstrated proficiency in a range of technologies, including front-end technologies (ReactJS, HTML, CSS, JavaScript), 
+                back-end technologies( Django, Python),Database (SQL, NoSQL), API integration, data transformation and analysis tools.<br/>
+                </p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
         <div className="left flex-1 flex items-center">
           <fieldset
             data-aos="zoom-in"

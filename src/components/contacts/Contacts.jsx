@@ -1,7 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import './contacts.css'
+import PopUpCard from "../PopUpCard/PopUpCard";
 
 const Contacts = () => {
+  const [showPopup, setShowPopup] = useState(false);
+  const phoneNumber = '+1 408-439-0043';
+
+  const handleOpenPopup = () => {
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   return (
     <div id="contact">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
@@ -33,16 +44,16 @@ const Contacts = () => {
     <a href="https://twitter.com/gagan_ik" target="_blank" class="icon icon--twitter">
       <i class="ri-twitter-line"></i>
     </a>
-    <a href="#" 
-    // onClick={handleOpenPopup} 
+    <a  
+    onClick={handleOpenPopup} 
     class="icon icon--phone">
       <i class="ri-phone-line"></i>
     </a>
 
     </div>
-    {/* {showPopup && (
-          <PopupCard phoneNumber={phoneNumber} onClose={handleClosePopup} />
-        )} */}
+    {showPopup && (
+          <PopUpCard phoneNumber={phoneNumber} onClose={handleClosePopup} />
+        )}
       </div>
     </div>
     </ div>

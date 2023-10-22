@@ -1,0 +1,57 @@
+.popup-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #eae9e8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+  }
+
+  .popup-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .phone-icon {
+    margin-right: 10px;
+    font-size: 28px;
+    color: #333;
+  }
+
+  .phone-number {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1DDDBD;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .cancel-button:hover {
+    background-color: #118f7a;
+  }
+
+  .cancel-button:focus {
+    outline: none;
+  }
+  .PhoneIcon{
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+  }
