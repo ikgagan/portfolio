@@ -29,7 +29,7 @@ const Experience = () => {
                 Web Application Developer (FullStack Developer)
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                 <a href="https://www.njit.edu/" target="_blank">New Jersey Institute of Technology</a> 
+                 <a href="https://www.njit.edu/" target="_blank">Data Source NJ</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
                   October 2023 - Present
