@@ -29,10 +29,10 @@ const Experience = () => {
                 Web Application Developer (FullStack Developer)
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                 <a href="https://www.njit.edu/" target="_blank">Data Source NJ</a> 
+                 <a href="https://www.njit.edu/" target="_blank">Data Source NJ - New Jersey Institute of Technology</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  October 2023 - Present
+                  September 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 -> Successfully evolved a software into a stable version with robust drag-and-drop capabilities and step-wise execution, ensuring 
