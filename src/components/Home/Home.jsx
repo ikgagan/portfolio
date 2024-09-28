@@ -14,12 +14,17 @@ const Home = (props) => {
       </div>
       <div class="right flex-1">
         <h1>Hello, I am Gagan <br/>
-          Indukala Krishna Murthy</h1>
+          {/* Indukala Krishna Murthy */}
+          </h1>
         <h2>
-          <span>Web Developer/Software Developer</span>
+          <span>Software Developer</span>
         </h2>
         <p style={{marginTop:"7px", marginBottom:"15px" }}>
-          I am a Masters Graduate Student at New Jersey Institute of Technology - Newark, New Jersey, US.
+        I’m a Software Developer with 3 years of experience and a Master’s in Computer Science.<br/>
+        I specialize in full stack development, data analytics, and microservices architecture, delivering<br/>
+        scalable platforms and AI-integrated tools using technologies like React Js, Django, Flask, Angular, <br/>
+        Next Js. My work spans dynamic data platforms, user-friendly interfaces, and AI-driven <br/>
+        analytics, enhancing performance and user experience across diverse industries.
         </p>
         <div>
             <a

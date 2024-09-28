@@ -26,13 +26,13 @@ const Experience = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-cyan-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                Web Application Developer (FullStack Developer)
+                Software Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                  <a href="https://www.njit.edu/" target="_blank">Data Source NJ - New Jersey Institute of Technology</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  September 2023 - Present
+                  Aug 2023 - May 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 -> Successfully evolved a software into a stable version with robust drag-and-drop capabilities and step-wise execution, ensuring 
@@ -62,7 +62,7 @@ const Experience = () => {
               </div>
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-cyan-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Engineer (FullStack Developer)
+                  Software Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                  <a href="http://www.nviera.com/" target="_blank">Nviera Technologies PVT LTD</a> 
@@ -106,13 +106,13 @@ const Experience = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-cyan-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                Software Engineer Intern (FullStack Developer)
+                Software Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                  <a href="https://www.macindia.in/" target="_blank">Mac Machine Tools and Automation PVT LTD</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  January 2021 - June 2021
+                  December 2020 - June 2021
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 <b> Business Vertical: Internet of Things, Robotics and Automation. </b><br/>

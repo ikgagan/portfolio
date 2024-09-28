@@ -30,7 +30,7 @@ const Education = () => {
                   New Jersey Institue of Technology
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  September 2022 - Present
+                  September 2022 - May 2024
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 <b>Coursework:</b> Data Structures and Algorithms, Data Management System Design, Operating System Design, Java Programming, Software
