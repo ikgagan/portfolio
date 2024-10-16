@@ -29,21 +29,55 @@ const Experience = () => {
                 Software Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                 <a href="https://www.njit.edu/" target="_blank">Rebecca Everlene</a> 
+                </span>
+                <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
+                  Sept 2024 - Present
+                </span>
+                {/* <p className=" text-[.9rem] text-justify text-gray-500">
+                -> Successfully evolved software into a stable version with robust drag-and-drop capabilities and stepwise execution, ensuring reliable function selection and execution of data transformation. Implemented breakpoints, resulting in a 30% increase in debugging efficiency.<br/>
+                -> Successfully integrated and prepared over 50 data sets relevant to New Jersey (local political campaign contributions, township budgets, property taxes, U.S. Census, Covid-19 data, and climate data for analysis, ensuring data quality and reducing data inconsistencies by 25%.<br/>
+                -> Developed custom functions for data reconciliation, including case conversion, field separation, and value transformations, which improved data processing speed by 20%.<br/>
+                -> Implemented machine learning models like Regressions, Decision Tree and clustering to provide predictive analytics, improving data driven decision-making by 25%.<br/>
+                -> Presented query results and analyses in graphical formats, resulting in a 25% increase in user comprehension and engagement.<br/>
+                -> Designed a user-friendly interface for multi-dataset querying and analysis, enhancing user experience and query speed by 20%.<br/>
+                -> Demonstrated proficiency in a range of technologies like ReactJS, Django, HTML, CSS, JavaScript, Python, SQL, NoSQL, and API integration, resulting in a 50% reduction in development time for new features.<br/>
+                </p> */}
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      <div className="right flex-1 flex items-center">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-cyan-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-cyan-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 border-2 border-cyan-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                Software Developer
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                  <a href="https://www.njit.edu/" target="_blank">Data Source NJ - New Jersey Institute of Technology</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
                   Aug 2023 - May 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                -> Successfully evolved a software into a stable version with robust drag-and-drop capabilities and step-wise execution, ensuring 
-                reliable function selection and execution of data transformation functions. <br/>
-                -> Implemented breakpoints for efficient program debugging.<br/>
-                -> Successfully integrated and prepared data sets relevant to New Jersey, such as local political campaign contributions, township budgets, 
-                property taxes, U.S.Census, Covid-19 data, and climate data for analysis, ensuring data quality. <br/>
-                -> Developed custom functions for data reconciliation, including case conversion, field separation, and value transformations. <br/>
-                -> Designed a user-friendly interface for querying and implemented machine learning for data analysis. <br/>
-                -> Demonstrated proficiency in a range of technologies, including front-end technologies (ReactJS, HTML, CSS, JavaScript), 
-                back-end technologies( Django, Python),Database (SQL, NoSQL), API integration, data transformation and analysis tools.<br/>
+                -> Successfully evolved software into a stable version with robust drag-and-drop capabilities and stepwise execution, ensuring reliable function selection and execution of data transformation. Implemented breakpoints, resulting in a 30% increase in debugging efficiency.<br/>
+                -> Successfully integrated and prepared over 50 data sets relevant to New Jersey (local political campaign contributions, township budgets, property taxes, U.S. Census, Covid-19 data, and climate data for analysis, ensuring data quality and reducing data inconsistencies by 25%.<br/>
+                -> Developed custom functions for data reconciliation, including case conversion, field separation, and value transformations, which improved data processing speed by 20%.<br/>
+                -> Implemented machine learning models like Regressions, Decision Tree and clustering to provide predictive analytics, improving data driven decision-making by 25%.<br/>
+                -> Presented query results and analyses in graphical formats, resulting in a 25% increase in user comprehension and engagement.<br/>
+                -> Designed a user-friendly interface for multi-dataset querying and analysis, enhancing user experience and query speed by 20%.<br/>
+                -> Demonstrated proficiency in a range of technologies like ReactJS, Django, HTML, CSS, JavaScript, Python, SQL, NoSQL, and API integration, resulting in a 50% reduction in development time for new features.<br/>
                 </p>
               </div>
             </div>
@@ -71,21 +105,21 @@ const Experience = () => {
                   June 2021 - August 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                <b> Business Vertical: Information Technology. </b><br/>
                 -> Demonstrated technical expertise in developing and evolving software in a fast paced and agile development environment using the
                     latest software development methodologies and infrastructure.<br/>
                 -> Relentlessly improved quality of the software with a keen eye for reusability, security, testability, performance while continuously
                     iterating on the development process to support new functionality.<br/>
                 -> Researched modern technologies, tools and develop proof of concepts as it applies to the product.<br/>
-                -> Hands on experience in React JS Framework (JavaScript, HTML, CSS), Python, Go Lang, MongoDb, Bootstrap.<br/>
+                -> Tech Stack used are React JS Framework (JavaScript, HTML, CSS), Python, Go Lang, MongoDB, and Bootstrap<br/>
                 -> Gained knowledge in using project management tool JIRA which uses Agile Project Management concept for issues, bugs, tasks
                     tracking, schedule/time management, task dependency tracking and developer performance tracking.<br/>
                 -> Good understanding/knowledge with GIT for version controlling and CICD.<br/>
                 <b>Project:</b> <br/>
-                -> Developed a PaaS product which provides the platform to develop, test, release and deploy the code in a microservice based
-                architecture.<br/>
-                -> The product provides the options to easily orchestrate the different microservices that are developed to createnew services as well.<br/>
-                -> Developed features like distributed online code editor, automating K8s deployments and code management.<br/>
-                -> Developed a microservice to read the AI model code and generate FAST API wrappers.<br/>
+                -> Developed a PaaS product that provides the platform to develop, test, release, and deploy code in a microservice-based architecture, reducing deployment time by 40%.<br/>
+                -> The product offers options to easily orchestrate different microservices that are developed to create new services, leading to a 30% increase in development efficiency.<br/>
+                -> Developed features such as a distributed online code editor, automating K8s deployments, and code management, which improved developer productivity by 25%.<br/>
+                -> Developed a microservice to read AI model code and generate FAST API wrappers, reducing the time to production for AI models by 50%..<br/>
                 </p>
               </div>
             </div>
@@ -116,14 +150,10 @@ const Experience = () => {
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 <b> Business Vertical: Internet of Things, Robotics and Automation. </b><br/>
-                -> Hands on experience in Python, JavaScript, MS SQL, Mongo Db, SQL Server Reporting Services, SQL Server Integration Services.<br/>
-                -> Good Understanding for working with Embedded system, Universal Robot arm and PLC’s.<br/>
-                -> Knowledge in automation of leading industries like Food, Beverages and automobiles.<br/>
-                <b>Project:</b><br/>
-                -> Researched new technologies and developed a script using python which helps in communication and data transfer between a PLC
-                        and Microsoft SQL Server for Food Industry.<br/>
-                -> Developed reports using SSRS which helps in analysing and maintaining the live data of food packaging on a day to day basis.<br/>
-                -> Researched and developed a script which helps in movement and communication between a joystick and a Universal Robot arm.<br/>
+                -> Developed an internal workday application using React, optimizing HR and financial processes, resulting in a 30% increase in departmental efficiency and a more organized workflow across the company.<br/>
+                -> Implemented complex state management and dynamic form validations within the Workday system, ensuring seamless data entry and retrieval for over 1,000 employee records.<br/>
+                -> Leveraged React's component lifecycle and hooks to create modular, reusable components, reducing code redundancy by 25% and improving the maintainability of the application.<br/>
+                -> Integrated DevExpress and AG Grid within the Workday application, enabling advanced, customizable data grids that improved data processing speed by 40% and reduced reporting time by 35% for large datasets.<br/>
                 </p>
               </div>
             </div>
