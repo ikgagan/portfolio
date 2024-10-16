@@ -1,6 +1,7 @@
 import React from 'react';
 import gaganResume from './resume.pdf'
 import gaganPhoto from './gaganPhoto1.jpg'
+import gaganPhoto1 from './image.jpg'
 import './home.css'
 
 const Home = (props) => {
@@ -10,7 +11,7 @@ const Home = (props) => {
     </div>
     <div class="hero flex items-centre justify-between">
       <div class="left flex-2 justify-center">
-        <img src={gaganPhoto} />
+        <img src={gaganPhoto1} />
       </div>
       <div class="right flex-1">
         <h1>Hello, I am Gagan <br/>
