@@ -4,7 +4,7 @@ import PopUpCard from "../PopUpCard/PopUpCard";
 
 const Contacts = () => {
   const [showPopup, setShowPopup] = useState(false);
-  const phoneNumber = '+1 408-439-0043';
+  const phoneNumber = '+1';
 
   const handleOpenPopup = () => {
     setShowPopup(true);
@@ -44,11 +44,11 @@ const Contacts = () => {
     <a href="https://twitter.com/gagan_ik" target="_blank" class="icon icon--twitter">
       <i class="ri-twitter-line"></i>
     </a>
-    <a  
+    {/* <a  
     onClick={handleOpenPopup} 
     class="icon icon--phone">
       <i class="ri-phone-line"></i>
-    </a>
+    </a> */}
 
     </div>
     {showPopup && (
