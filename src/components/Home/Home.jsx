@@ -18,7 +18,7 @@ const Home = (props) => {
           {/* Indukala Krishna Murthy */}
           </h1>
         <h2>
-          <span>Software Development Engineer</span>
+          <span>Software Development Enginegiter</span>
         </h2>
         <p style={{marginTop:"7px", marginBottom:"15px" }}>
         I’m a Software Development Engineer with 5 years of experience and a Master’s in Computer Science.<br/>
