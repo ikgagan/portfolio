@@ -29,18 +29,18 @@ const Experience = () => {
                 Software Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                 <a href="https://www.rebeccaeverlene.org/" target="_blank">Rebecca Everlene</a> 
+                <a href="https://steerwise.com/" target="_blank">Steerwise</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
                   Sept 2024 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                <b> Business Vertical: EdTech. </b><br/>
-                -> Designed and developed user-friendly web interfaces for the MEDKids app, improving accessibility and increasing user engagement by 40% among young learners and educators. <br/>
-                -> Collaborated with a multidisciplinary team to implement interactive features such as virtual field trips and educational games, resulting in a 30% improvement in user interaction and learning outcomes.<br/>
-                -> Streamlined content integration processes, reducing content upload time by 25% and improving app performance and content delivery efficiency by 35%.<br/>
-                -> Optimized the app’s frontend performance, cutting page load times by 20%, leading to a 15% increase in overall user satisfaction.<br/>
-                -> Implemented feedback loops and iterative improvements, enhancing the app's functionality by 30% based on continuous user testing and stakeholder input. <br/>
+                <b> Business Vertical: Information Technology. </b><br/>
+                -> Developed a multi-tenant, low-code/no-code data mesh platform that enables organizations to procure, produce, and publish domain-specific data products on a scale.<br/>
+                -> Architected and implemented a scalable MVVM + microservices frontend foundation, driving clean code practices, improved scalability, fast feature delivery, and high code reusability.<br/>
+                -> Introduced Storybook-driven development workflows, allowing dynamic preview of all UI component variations, leading to better collaboration, faster debugging, and 40% higher component reuse across the project.<br/>
+                -> Engineered highly reusable, modular UI components with clear separation of view, logic, and data, designed to adapt to diverse workflows and business requirements across the platform.<br/>
+                -> Implemented a prompt engineering framework to accelerate prototyping and streamline development, ensuring faster and consistent coding.<br/>
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const Experience = () => {
                  <a href="https://www.njit.edu/" target="_blank">Data Source NJ - New Jersey Institute of Technology</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  Aug 2023 - May 2024
+                  Aug 2023 - June 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 <b> Business Vertical: Information Technology. </b><br/>
@@ -102,7 +102,7 @@ const Experience = () => {
                  <a href="http://www.nviera.com/" target="_blank">Nviera Technologies PVT LTD</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  June 2021 - August 2022
+                  June 2021 - May 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 <b> Business Vertical: Information Technology. </b><br/>
@@ -146,7 +146,7 @@ const Experience = () => {
                  <a href="https://www.macindia.in/" target="_blank">Mac Machine Tools and Automation PVT LTD</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  December 2020 - June 2021
+                  August 2020 - June 2021
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 <b> Business Vertical: Internet of Things, Robotics and Automation. </b><br/>
@@ -180,7 +180,7 @@ const Experience = () => {
                  <a>Entrepreneurship Garage</a> 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
-                  October 2018 - November 2018
+                  September 2018 - December 2018
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 <b> Business Vertical: EdTech. </b><br/>

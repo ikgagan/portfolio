@@ -27,11 +27,11 @@ const Education = () => {
                   Masters of Sience in Computer Science
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  New Jersey Institue of Technology
+                  <b>New Jersey Institue of Technology</b>
                 </span>
-                <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
+                {/* <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
                   September 2022 - May 2024
-                </span>
+                </span> */}
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 <b>Coursework:</b> Data Structures and Algorithms, Data Management System Design, Operating System Design, Java Programming, Software
                 Project Management, Web System Development, Internet & Higher-Level Protocol, Big Data, Data Analytics with R.<br/>
@@ -60,11 +60,11 @@ const Education = () => {
                 Bachelor of Technology in Computer Science Engineering - Internet of Things
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Jain University
+                 <b>Jain University</b>
                 </span>
-                <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
+                {/* <span className=" text-[.9rem] font-semibold text-cyan-500 sm:text-base">
                   August 2017 - May 2021
-                </span>
+                </span> */}
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 <b>Coursework:</b> Python Programming, Data Structures using C, Object Oriented Programming using Java, Software Engineering Design and Analysis of Algorithms, Big Data Analytics,
                 Mobile Application Development, Database Security, Cloud Web Services, IoT System Design, Data Science, NLP, Neural Networks.<br/>

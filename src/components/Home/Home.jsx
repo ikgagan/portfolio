@@ -18,12 +18,12 @@ const Home = (props) => {
           {/* Indukala Krishna Murthy */}
           </h1>
         <h2>
-          <span>Software Developer</span>
+          <span>Software Development Engineer</span>
         </h2>
         <p style={{marginTop:"7px", marginBottom:"15px" }}>
-        I’m a Software Developer with 3 years of experience and a Master’s in Computer Science.<br/>
+        I’m a Software Development Engineer with 5 years of experience and a Master’s in Computer Science.<br/>
         I specialize in full stack development, data analytics, and microservices architecture, delivering<br/>
-        scalable platforms and AI-integrated tools using technologies like React Js, Django, Flask, Angular, <br/>
+        scalable platforms and AI-integrated tools using technologies like React, Django, Flask, Angular, <br/>
         Next Js. My work spans dynamic data platforms, user-friendly interfaces, and AI-driven <br/>
         analytics, enhancing performance and user experience across diverse industries.
         </p>
